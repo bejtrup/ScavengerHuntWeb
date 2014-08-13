@@ -1,0 +1,106 @@
+/*  SCOREBOARD  */
+
+.scoreList {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 300px;
+    border-bottom: 1px solid #333;
+}
+.scoreList ol { 
+    padding: 0;
+    margin: 0 0 0 25px;
+}
+.scoreList li { 
+    font-size: 11px;
+    padding: 0 5px 0 0;
+}
+.scoreList li:nth-child(odd) { 
+    background: #333
+}
+.scoreList h3 { 
+    display: inline-block;
+    min-width: 58px;
+    margin: 0px 0 0 10px;
+    font-size: 13px !important;
+}
+.scoreList p {
+    display: inline-block;
+    margin: 0px;
+    font-size: 13px !important;
+    float: right;
+}
+
+.AssWrapper {
+    position : absolute;
+    top      : 300px;
+    width    : 200px;
+    bottom: 0px;
+    left     : 0;
+    overflow : hidden; 
+    padding-bottom: 17px;
+}
+.Ass {
+    position:relative;
+    width: 200px;
+    border-bottom: 1px solid #333;
+    max-height: 110px;   min-height: 110px;  /* SKAL GENERES AUTO*/
+}
+
+.TeamDivWrapper {
+    position: absolute;
+    top: 0px;
+    left: 200px; 
+    right: 0px; 
+    bottom: 0px;
+    overflow: auto;
+    border-left: 1px solid #333;
+}
+
+.TeamChartWrapper{
+    position: relative;
+    display: block;
+    height: 300px;
+    border-bottom: 1px solid #333;
+    z-index: 200;
+    background: #61646D;
+}
+
+.rowChard {
+    display: inline-block;
+    width: 200px;
+    height: 100%;
+    border-right: 1px solid #333;
+    text-align: center;
+}
+.rowChard span {
+    display: block;
+    margin: 20px auto 5px auto;
+    width: 100px;
+    height: 250px;
+    background: tomato;
+
+}
+.rowChard h1 {
+    margin: 0px;
+}
+
+.row{
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 120px;    /* SKAL GENERES AUTO*/
+    border-bottom: 1px solid #333;
+    background: #aaa;
+    margin: 0px;
+}
+.row p {
+    display: inline-block;
+    width: 200px;
+    height: 100%;
+    border-right: 1px solid #333;
+    text-align: center;
+        color: #333;
+        margin: 0px;
+}

@@ -1,0 +1,204 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,300italic,100italic,100,500,500italic,700,700italic,900,900italic);
+
+body {
+    background: #61646d;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+h1,h2,h3,p,a { 
+    font-size: 14px; 
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    position: relative;
+    background: #f2736a;
+    padding: 10px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+header .outer {
+    display: inline-table;
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+    width: 14%;
+    vertical-align: middle;
+}
+header .middle {
+    display: inline-table;
+    width: 60%;
+    vertical-align: top;
+    margin-right: 14%;
+    word-break: break-all;
+}
+
+header .update {
+    position: absolute;
+    background: #de6b64;
+    width: 14%;
+    top: 0; right: 0; bottom: 0;
+}
+
+header h2 {
+    margin: 0px;
+    font-size: 17px;
+    color: #fff;
+}
+header h3 {
+    margin: 0px;
+    font-size: 17px;
+}
+header p {
+    margin: 0px;
+    color: #B95853;
+}
+header .update img {
+
+}
+
+header .update.rotate img{
+    -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(359deg);}
+}
+
+.menu {
+    background: #424450;
+    margin: 0;
+    padding: 13px 10px;
+    text-align: right;
+}
+menu a{
+    color: #8e8f96;
+}
+
+#emptyStorage {
+    float: left;
+}
+.webappbody {
+    display: block;
+}
+.taskdiv {
+    position: relative;
+    display: block;
+    border-bottom: 1px solid #424450;
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.taskdiv.yes {
+    background: #4d5059;
+}
+.taskdiv.pen {
+    background: #4d5059;
+}
+.taskdiv.no {
+    background: #a8807e;
+}
+.hidden {
+    display: none;
+}
+
+.webappbody h1 {
+    display: inline-table;
+    min-width: 35px;
+    margin-right: 50px;
+}
+.webappbody h3 {
+    position: absolute;
+    right: 5px;
+    top: 7px;
+}
+.webappbody #status{
+    position: absolute;
+    top: 0px; right: 0; bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #61646D;
+}
+
+.botton {
+    display: inline-table; 
+    margin: 5px 15px;
+    padding: 5px 15px;
+    background: #aaa;
+    cursor: pointer;
+}
+.botton.ON {
+    background: #f2736a;
+}
+#picflowwrapper {
+    padding-bottom: 150px;
+}
+
+.picFlowBox {
+    display: inline-table;
+    border: 1px solid #aaa;
+}
+.picFlowBox img {
+    max-width: 50%;
+}
+
+#popup {
+    position: absolute;
+    top: 0px; bottom: 0px;
+    left: 0px; right: 0px;
+    background: rgba(0,0,0,0.8);
+}
+.popupwindow{
+    background: #99e5b3;
+    display: table;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+.popupwindow.noo {
+    background: #a8807e;
+}
+.popupwindow h1,.popupwindow h2 {
+    font-size: 22px;
+    margin: 1px auto;
+    color: #000;
+}
+.popupwindow p {
+    color: #000;
+    margin: 15px 0 -2px 0;
+}
+.popupwindow a {
+    display: table;
+    margin: 20px auto;
+    padding: 5px;
+    background: rgba(0,0,0,0.3);
+    text-decoration: none;
+    color: #000;
+}
+
+#btn {
+    display: table;
+    margin: 0px auto;
+    color: #000;
+    text-decoration: none;
+    background: rgba(255,255,255,0.5);
+    padding: 10px 20px;
+}
+/*          Task edit          */
+
+.longtype {
+    width: 75%;
+}

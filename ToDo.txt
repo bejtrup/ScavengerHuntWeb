@@ -1,0 +1,58 @@
+App::Forside
+
+- Holdkode::tekst
+- Layout
+- smide bruger til webapp hvis localstorage..
+
+App::Opgaveliste
+- fjern emptyStorage (deskret ikon)
+- Ikke godkent-preview knap (?)
+
+App::Se afleveret
+- tilbage knap (?)
+
+App::Upload
+- if movie...
+
+App::Andet
+- skal man kunne aflevere andet?  											<= RENE & KASPER
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+HVAD SKER DER HVIS VI MODTAGER MAIL, IND I SYSTEMET ???
+
+HQ::HQ
+0
+ HQ::Pic flow 
+- GEM knap
+
+ HQ::Score Board 
+ -hvis point for alle hold. 
+ - vis stilling
+ - vis liste med opgaver, link til godkente, afviste 
+
+ HQ::Taks editor 
+- alt om til print venlig version (?)
+
+ HQ::Se All photos															<= RENE
+ - hold tabs
+ - alle billeder i en lang kø ( link film )
+ - vis / skjul "gemte"
+
+Div
+- URL?
+- App ?
+- sikre at det bliver tjekket for opgaver før man kan uploade opgave
+- mov på android ??
+- Fullscreen page - homescreen shortcut
+- inApp message
+
+Til Sidst
+- Tekst på alle sidder 														<= RENE & KASPER
+TEST android / iphone / Stress ....   mail backup... 
+
+
+
+- aflevere text
+- aflevere flere billeder
+- sende text ud
